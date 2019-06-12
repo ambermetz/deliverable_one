@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color:  #F0ECEE;
+    font-family: 'Fira Sans';
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h2.logo {
+    display: block;
+    float: left;
+    padding: 10px 20px 0px 0px;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 0;
+}
+
+.me {
+    color: #FF4850;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+    padding: 10px 0px;
+    list-style: none;
+}
+
+ul li {
+    font-size: 18px;
+    display: block;
+}
+
+ul a {
+    color: #88898B;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+ul a:hover {
+    color: #FF4850;
+}
+
+.adopt {
+    color: #FF4850;
+}
+
+p {
+    color:  #88898B;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.contact-us {
+    border-radius: 5px;
+    padding: 14px 10px;
+    color: white;
+    background: #FF4850;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+.find-out {
+    border-radius: 5px;
+    padding: 15px 60px;
+    color: white;
+    background: #FF4850;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    display: block;
+}
+
+.main {
+    width: 100%;
+}
+
+.container {
+    line-height: 1.5;
+    margin-bottom: 100px;
+    display: flex;
+    font-weight: 600px;
+    font-weight: 600px;
+    flex: 1;
+}
+
+.find-out:hover {
+    background: #CCC;
+}
+
+.contact-us:hover {
+    background: #CCC;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url(bulldog.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .find-out {
+        width: auto;
+    }
+    ul li {
+        display: inline-block;
+        margin-left: 10px;
+        padding-top: 20px;
+        margin-right: 10px;
+        padding-right: 30px;
+    }
+    ul {
+        float: right;
+    }
+    h2.logo {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    header {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .container {
+        max-width: 500px;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+}
